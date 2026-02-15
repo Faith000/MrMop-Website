@@ -51,7 +51,7 @@ h6{
     font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
    h1{
     font-size: 5.6rem;
 }
@@ -92,6 +92,15 @@ p{
     top: 0;
     left: 0;
     margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .navbar{
+        padding: 2rem 4rem;
+    }
+    .web-hero-image {
+        width: 500px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -165,6 +174,12 @@ p{
      justify-content: space-between;
 }
 
+@media (max-width: 1024px){
+    .hero-section {
+     padding: 4rem 4rem;    
+    }
+}
+
 .mobile-hero-image {
  display: none;
 }
@@ -216,6 +231,13 @@ p{
  color: white;
 }
 
+@media (max-width: 1024px){
+    .why-us{
+        padding: 8rem 4rem;
+    }
+}
+
+
 @media (max-width: 768px) {
    .why-us {
     padding: 4rem 2rem;
@@ -247,6 +269,12 @@ p{
     width: 734px
 }
 
+@media (max-width: 1024px) {
+   #why-us-image{
+    width: 450px;
+   } 
+}
+
 @media (max-width: 768px) {
     #why-us-image {
     width: 100%; 
@@ -266,6 +294,7 @@ p{
     gap: 40px;
 }
 
+
 @media (max-width: 768px) {
     .star-text-container {
         gap: 16px;
@@ -279,6 +308,12 @@ display: flex;
  align-items: center;
 }
 
+@media (max-width: 1024px){
+   .image-star {
+    gap: 32px;
+   } 
+}
+
 @media (max-width: 768px) {
     .image-star {
       flex-direction: column;  
@@ -289,6 +324,12 @@ display: flex;
 
 .our-services {
    padding: 8rem;
+}
+
+@media (max-width: 1024px){
+    .our-services{
+        padding: 8rem 4rem;
+    }
 }
 
 @media (max-width: 768px)  {
@@ -321,6 +362,12 @@ display: flex;
     margin-top: 40px;
 }
 
+@media (max-width: 1024px){
+ .service-cards{
+    overflow-x: scroll;
+ }
+}
+
 @media (max-width: 768px) {
    .service-cards{
     flex-direction: column;
@@ -346,7 +393,17 @@ display: flex;
     padding: 8rem;
 }
 
+@media (max-width: 1024px){
+    .how-it-works{
+        padding: 8rem 4rem;
+    }
+}
 
+@media (max-width: 480px){
+    .how-it-works {
+        padding: 8rem 2rem;
+    }
+}
 
 .how-it-works-div {
     display: flex;
@@ -386,16 +443,45 @@ display: flex;
    color: #ffffff;
 }
 
+@media (max-width: 480px){
+    .work-card {
+        width: 100%;
+    }
+    .work-cards {
+        width: 100%;
+    }
+}
+
+
 .work-card-one {
   transform: rotate(-4deg);
+}
+
+@media (max-width: 480px){
+   .work-card-one {
+  transform: none;
+} 
 }
 
 .work-card-two {
     transform: rotate(8deg);
 }
 
+@media (max-width: 480px){
+   .work-card-two {
+  transform: none;
+} 
+}
+
+
 .work-card-three {
     transform: rotate(-3deg);
+}
+
+@media (max-width: 480px){
+   .work-card-three {
+  transform: none;
+} 
 }
 
 .subtext {
@@ -420,6 +506,12 @@ display: flex;
 
 .footer {
  padding: 8rem 8rem 4rem 8rem;
+}
+
+@media (max-width: 1024px){
+    .footer{
+        padding: 8rem 4rem 4rem 4rem;
+    }
 }
 
 @media (max-width: 768px){
@@ -514,6 +606,12 @@ a{
      padding: 4rem 0 0 8rem;
 }
 
+@media (max-width: 1024px){
+    .hero-section-about {
+        padding: 4rem;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-section-about{
        padding: 2rem 2rem 0 2rem;
@@ -526,6 +624,12 @@ a{
     gap: 8px;
     align-items: center;
     margin-bottom: 5.6rem;
+}
+
+@media (max-width: 1024px){
+     .about-image{
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px){
@@ -621,12 +725,27 @@ a{
      justify-content: space-between;
 }
 
+@media (max-width: 1024px){
+    .hero-services{
+        padding: 4rem;
+    }
+}
+
 @media (max-width: 768px){
     .hero-services{
         flex-direction: column;
         justify-content: left;
         align-items: flex-start;
         padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 480px){
+    .hero-services{
+        padding: 2rem;
+    }
+    .services-hero-right{
+        width: 100% !important;
     }
 }
 
@@ -637,11 +756,43 @@ a{
     gap: 40px;
 }
 
+
+@media (max-width: 1024px){
+     .services-container{
+    padding: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    width: 100%;
+    }
+    .services-card {
+    width: 100%;
+    }
+    .service-image {
+    width: 100%;
+    }
+}
+
+
 @media (max-width: 768px){
     .services-container{
     padding: 4rem 2rem;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    width: 100%;
+    }
+    .services-card {
+    width: 100%;
+    }
+    .service-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    .services-container{
+    padding: 4rem 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
     width: 100%;
     }
     .services-card {
