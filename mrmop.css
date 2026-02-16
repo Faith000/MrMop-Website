@@ -413,7 +413,7 @@ display: flex;
 
 .service-cards{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     justify-content: space-between;
     margin-top: 40px;
