@@ -646,13 +646,6 @@ a{
     }
 }
 
-@media (max-width: 480px) {
-
-    .footer-shortcuts{
-       flex-direction: column;
-    }
-}
-
 .social-media {
     display: flex;
     align-items: center;
