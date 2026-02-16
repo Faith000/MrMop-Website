@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mrmop.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -58,7 +59,7 @@
       </div>
     </div>
     <div class="hero-section">
-      <div>
+      <div data-aos="fade-right">
         <h1><span style="color: #1870f5">Clean</span> Spaces</h1>
         <div class="lower-hero">
           <img class="hero-illustration" src="images/cleaning icon- hero.svg" alt="" />
@@ -71,13 +72,13 @@
           ><button style="color: #000;" class="button-primary">Book Now</button></a
         >
       </div>
-      <img
+      <img data-aos="fade-left"
         class="web-hero-image"
         style="width: 800px; margin: 0"
         src="images/Hero-neww.jpg"
         alt=""
       />
-      <img
+      <img data-aos="fade-left"
         class="mobile-hero-image"
         style="width: 100%; margin: 0"
         src="images/Hero-neww.jpg"
@@ -85,13 +86,13 @@
       />
     </div>
     <div class="why-us">
-      <div class="why-us-partone">
+      <div data-aos="fade-right" class="why-us-partone">
         <div class="tag">WHY US</div>
         <h2 class="spotless">
           <span style="color: #fcbd02">Spotless</span> Every Time
         </h2>
       </div>
-      <div class="image-star">
+      <div data-aos="fade-up" class="image-star">
         <img id="why-us-image" src="images/Why us image.jpg" alt="" />
         <div class="star-text-container">
           <div class="star-text">
@@ -111,7 +112,7 @@
         </div>
       </div>
     </div>
-    <div class="our-services">
+    <div data-aos="fade-up" class="our-services">
       <div class="tag services-tag">OUR SERVICES</div>
       <div class="see-all">
         <h2><span style="color: #1870f5">Squeaky Clean</span> Spaces</h2>
@@ -166,7 +167,7 @@
         <h2>How It Works</h2>
         <img class="vector-arrow" src="images/How it works vector.svg" alt="" />
       </div>
-      <div class="work-cards">
+      <div data-aos="fade-in"  class="work-cards">
         <div class="work-card work-card-one">
           <h2>01.</h2>
           <div class="subtext">
@@ -243,5 +244,9 @@
         <p>© 2025 MrMop. All rights reserved</p>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

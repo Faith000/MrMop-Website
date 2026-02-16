@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mrmop.css" />
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,17 +45,17 @@
       </div>
     </div>
     <div class="hero-section-about">
-      <div class="about-heading">
+      <div data-aos="fade-in" class="about-heading">
         <h1>Trusted to <span style="color: #ffd557">Sparkle</span></h1>
         <p style="color: #525866">
           Professional, supervised cleaning you can rely on.
         </p>
       </div>
-      <img class="about-image" src="images/About us image.jpg" alt="" />
+      <img data-aos="fade-up" class="about-image" src="images/About us image.jpg" alt="" />
     </div>
     <div class="about-us">
-      <h4>About Us</h4>
-      <div class="about-text">
+      <h4 data-aos="fade-right">About Us</h4>
+      <div data-aos="fade-left" class="about-text">
         <p>
           We provide professional cleaning services for homes and businesses,
           with a strong focus on quality, reliability, and customer
@@ -72,8 +73,8 @@
     </div>
     <div class="our-mission">
       <div class="mission-container">
-        <h2>Our Mission</h2>
-        <h5 class="mission-text" style="width: 600px;">
+        <h2 data-aos="fade-in">Our Mission</h2>
+        <h5 data-aos="fade-in" class="mission-text" style="width: 600px;">
           “To provide reliable, high-quality cleaning services that create
           healthy, comfortable spaces while making the cleaning process simple,
           affordable, and stress-free for every customer.”
@@ -127,5 +128,9 @@
         <p>© 2025 MrMop. All rights reserved</p>
       </div>
     </div>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

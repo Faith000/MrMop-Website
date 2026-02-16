@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mrmop.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,17 +45,17 @@
     </div>
     <div class="hero-services">
       <div style="width: 500px" class="services-hero-left">
-        <h1>Our Cleaning <span style="color: #1870f5">Services</span></h1>
+        <h1 data-aos="fade-right">Our Cleaning <span style="color: #1870f5">Services</span></h1>
       </div>
       <div style="width: 450px; color: #525866" class="services-hero-right">
-        <p>
+        <p data-aos="fade-left">
           We offer professional cleaning services designed to fit your
           lifestyle. Whether you need a one-time deep clean or regular
           maintenance, our team is ready to help.
         </p>
       </div>
     </div>
-    <div class="services-container">
+    <div data-aos="fade-in" class="services-container">
       <div class="services-card">
         <img class="service-image" src="images/homecleaning-services.png" alt="" />
         <div class="service-detail">
@@ -132,7 +133,7 @@
         <h2>How It Works</h2>
         <img class="vector-arrow" src="images/How it works vector.svg" alt="" />
       </div>
-      <div class="work-cards">
+      <div data-aos="fade-in" class="work-cards">
         <div class="work-card work-card-one">
           <h2>01.</h2>
           <div class="subtext">
@@ -209,5 +210,9 @@
         <p>© 2025 MrMop. All rights reserved</p>
       </div>
     </div>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

@@ -572,7 +572,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin: 8rem auto 0 auto;
 }
 
 @media (max-width: 768px){
